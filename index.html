@@ -9,16 +9,163 @@
         <meta name="keywords" content="James Boboway">
         <meta name="author" content="James">
 
-        <link rel="icon" type="image/png" href="images/Logo.jpg">
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/reset.css">
         <link rel="stylesheet" href="style/homepage.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav>
-            <a href="index.html">About ME</a>
-            <a href="contact.html"></a>
-        </nav>
+        <section class="container">
+            <nav  tabindex="1" class=" navbar navbar-expand-lg  navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#">James Bobway</a>
+                <button   class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item active" >
+                      <a class="nav-link" href= "#aboutMe" >About Me </a>
+                    </li>
+                    <li class="nav-item" >
+                      <a class="nav-link" href="#video" >A Short Video</a>
+                    </li>
+                    <li class="nav-item" >
+                      <a class="nav-link" href="#acomplishment" >My Acomplishments</a>
+                    </li>
+                    <li class="nav-item" >
+                      <a class="nav-link " href="#contact" >Contact ME</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>     
+         </section>
+         
+        <main>
+            <article>
+                <section>
+                    <br>
+                    <br>
+                    <div class="row ">
+                        <div class="col-4 offset-1 ">
+                            <h1  id="aboutMe" class="font-weight-bold"><span>About me</span></h1>
+                        </div>    
+                        <div class="col-8 offset-1 ">
+                            <p>
+                                I am a first-year university student attending Mount Royal University. I am currently enrolled in Business Computer Information Systems, 
+                                in the hope that I will work with the quickly advancing technologies in the future. I have a sister who has just graduated from the University 
+                                of Lethbridge and a very academically inclined family. I have completed introduction into Marketing, Computer programming, and some general 
+                                education courses. First semester was a very challenging, however, eye opening experience that has only increased my drive to continue on the 
+                                path I am on, and to continue working on myself and helping the people around me. 
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </article>    
+                <section>
+                    <br id="video">
+                    <div class="row ">
+                        <div class="col-4 offset-1 ">
+                            <h2 tabindex="6"><span>A mentality I hold deeply</span></h2>
+                        </div>
+                        <div class="col-8 offset-1 ">
+                            <iframe width="420" height="315" tabindex="-1"
+                            src="https://www.youtube.com/embed/-ESQmzDbnL8">
+                            </iframe>
+                        </div>  
+                    </div>
+                 </section>
+           
+  
+            <section> 
+                <br id = "acomplishment" >
+                    <div class="row ">
+                        <div class="col-4 offset-1 ">
+                            <h3 tabindex="7"><span>Some acomplishments</span></h3>
+                        </div>
+                    </div>
+                    <div class= "row align-items-center">
+                        <div class=" col-sm-11 col-md-3 col-lg-3 align-self-start offset-1 ">
+                            <p tabindex="8"> My first Job was at heritage park, during this time I got to work with my still to this day best friend Chase Glenwright.
+                                This was where I learned responsibility, customer service, respect and how words go a long way. I got offered my first managment position, however,
+                                I declined for my next accomplishment.
+                            </p>
+                        </div>
+                        <div class= "col-sm-11 col-md-3 col-lg-3 align-self-start offset-1 ">
+                            <p tabindex="9">
+                                My second job was an intership for the CBE. During this time the CBE was just starting a few new internships as a tester to see if it would be a 
+                                able option. I was one of the lucky three that were chosen to help the tech side of the CBE. Many might not see this as a big accomplishment, 
+                                however, to be one of the three out of hundreds of people to get a paid summer internship was an amazing feat for my 15-year-old self. 
+                            </p>
+                         </div>
+
+                        <div class="col-sm-11 col-md-3 col-lg-3 align-self-start offset-1">
+                            <p tabindex="10">My final major accomplishment hands down goes to getting into Mount Royal University and making it through the first year. This is one of the 
+                            largest decisions in my life and was the hardest for me to achieve.  I know many friends who will never get this far, and now that I have successfully 
+                            completed my first year, without failing any classes, I can saythat I am finally on the right track. 
+                            </p>      
+                        </div>
+                    </div>
+                    <div class= "row align-items-center">
+                        <div class=" col-sm-11 col-md-3 col-lg-3 align-self-start offset-1 ">
+                            <img src="images/hp.jpg" alt="Me and chase and heritage park" class=" img-fluid" height="380" width="460">
+                        </div>
+                        <div class= "col-sm-11 col-md-3 col-lg-3 align-self-start offset-1 ">
+                            <img src="images/CBe.jpg" alt="Calgary board of education logo" class=" img-fluid" height="380" width="460">
+                        </div>
+                        <div class= "col-sm-11 col-md-3 col-lg-3 align-self-start offset-1 ">
+                            <img src="images/MRU.png" alt="Mount royal university logo"  class=" img-fluid" height="380" width="460">
+                        </div>
+                    </div>
+                </section>  
+                
+            <br id="contact">
+            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                <h4 tabindex="11"><span> - Forms - </span></h4>
+                <form  method="post" action="mailto:mine@mine.ca" name="Contacts" class=contact >
+                    <fieldset class=contactinfo>
+                        <legend><span>Contact Information</span></legend>
+                        <div class="form-group">
+                            <p><span>
+                                <label >First and last name(required)</span> <br><input  tabindex="12"class="form-control" name="full name" type="text" size="20"  maxlength="25" required>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <p>
+                            <label>Email(required) <br>
+                                <input tabindex="13" name="email" type="email" size="30" class="form-control"
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="40" required>
+                                    <span>Example@email.com</span>
+                            </label>
+                            </p>
+                        </div>
+                        <div class="form-group">
+                        <p>
+                            <label> Comments or Questions<br>
+                                <textarea tabindex="14"class="form-control" name="comment" rows="1" placeholder="What is your middle name?"></textarea>
+                            </label>
+                        </p>
+                        </div>
+                        <div class="form-group">
+                            <input tabindex="15"class="btn btn-primary" type="submit" value="Submit">
+                            <input tabindex="16" class="btn btn-primary" type="reset" value="Clear">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            
+
+                    
+           
+        </main> 
+        <footer>
+
+        </footer>
 
 
 
